@@ -5,4 +5,4 @@ set -o errexit
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"
 
-sentinel fmt -check=true $(find . -name "*.sentinel" -type f)
+sentinel fmt -check=true "$(find . -name "*.sentinel" -type f)"
