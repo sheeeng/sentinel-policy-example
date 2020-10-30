@@ -1,0 +1,11 @@
+{
+  "param": {
+    "day": "monday",
+    "hour": 8
+  },
+  "test": {
+    "is_open_hours": true,
+    "is_weekday": true,
+    "main": true
+  }
+}
