@@ -1,0 +1,11 @@
+{
+  "param": {
+    "day": "sunday",
+    "hour": 20
+  },
+  "test": {
+    "is_open_hours": false,
+    "is_weekday": false,
+    "main": false
+  }
+}

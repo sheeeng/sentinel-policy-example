@@ -1,6 +1,5 @@
-
 param "day" {
-  value = "sunday"
+  value = "monday"
 }
 
 param "hour" {
@@ -10,7 +9,7 @@ param "hour" {
 test {
   rules = {
     is_open_hours = false
-    is_weekday    = false
+    is_weekday    = true
     main          = false
   }
 }
