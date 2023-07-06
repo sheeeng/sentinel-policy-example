@@ -1,4 +1,4 @@
-# sentinel-policy-examples
+# sentinel-policy-example
 
 ## Getting Started
 
